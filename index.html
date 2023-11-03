@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Results summary component</title>
+  </head>
+
+  <body>
+    <main>
+      <article class="result-summary">
+        <div class="result result-gap">
+          <h1 class="result-title">Your Result</h1>
+          <p class="result-ellipse"><span>76</span>of 100</p>
+          <div class="result-great result-gap" data-spacing="small">
+            <span>Great</span>
+            <p>
+              You scored higher than 65% of the people who have taken these
+              tests.
+            </p>
+          </div>
+        </div>
+        <div class="summary result-gap">
+          <h2 class="summary-title">Summary</h2>
+          <div class="summary-cards result-gap" data-spacing="small">
+            <div class="summary-card" data-item-color="light-red">
+              <div class="flex-item">
+                <img src="/images/icon-reaction.svg" alt="Reaction icon" />
+                <p class="summary-card-title">Reaction</p>
+              </div>
+              <p class="summary-card-score"><span>80</span>/ 100</p>
+            </div>
+            <div class="summary-card" data-item-color="orangey-yellow">
+              <div class="flex-item">
+                <img src="/images/icon-memory.svg" alt="Memory icon" />
+                <p class="summary-card-title">Memory</p>
+              </div>
+              <p class="summary-card-score"><span>92</span>/ 100</p>
+            </div>
+            <div class="summary-card" data-item-color="green-teal">
+              <div class="flex-item">
+                <img src="/images/icon-verbal.svg" alt="Verbal icon" />
+                <p class="summary-card-title">Verbal</p>
+              </div>
+              <p class="summary-card-score"><span>61</span>/ 100</p>
+            </div>
+            <div class="summary-card" data-item-color="cobalt-blue">
+              <div class="flex-item">
+                <img src="/images/icon-visual.svg" alt="Visual icon" />
+                <p class="summary-card-title">Visual</p>
+              </div>
+              <p class="summary-card-score"><span>72</span>/ 100</p>
+            </div>
+          </div>
+          <button class="button">Continue</button>
+        </div>
+      </article>
+    </main>
+  </body>
+</html>
