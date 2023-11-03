@@ -28,8 +28,6 @@ Users should be able to:
 ### Screenshot
 
 ![](/design/desktop-design.png)
-![](/design/active-state.png)
-![](/design/mobile-design.png)
 
 ### Links
 
